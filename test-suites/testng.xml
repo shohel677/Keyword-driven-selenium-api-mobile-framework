@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+    <listeners>
+        <listener class-name="TestComponents.SuiteListener" />
+        <listener class-name="TestComponents.Web.ReportListeners"/>
+        <listener class-name="TestComponents.AssertionListener"/>
+    </listeners>
+    <test thread-count="5" name="Login tests">
+        <classes>
+            <class name="TestCases.Web.tests.ProductTests">
+                <methods>
+                    <include name="testToVerifyAddToCart"/>
+                    <include name="testToVerifyAddToCart2"/>
+                    <include name="testToVerifyAddToCart3"/>
+                    <include name="testToVerifyAddToCart4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

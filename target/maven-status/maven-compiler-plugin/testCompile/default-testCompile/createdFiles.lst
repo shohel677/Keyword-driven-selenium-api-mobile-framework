@@ -1,0 +1,10 @@
+TestCases\Web\steps\TestSteps.class
+TestComponents\API\ReportListenersAPI.class
+TestComponents\API\ApplicationAPI.class
+TestComponents\Web\ReportListeners.class
+TestComponents\SuiteListener.class
+TestCases\API\EmployeeTestAPI.class
+TestCases\Web\steps\Step.class
+TestComponents\AssertionListener.class
+TestComponents\Web\ApplicationWeb.class
+TestCases\Web\tests\ProductTests.class
