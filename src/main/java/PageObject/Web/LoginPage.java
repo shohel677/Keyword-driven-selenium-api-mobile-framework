@@ -2,10 +2,7 @@ package PageObject.Web;
 
 import AbstarctComponents.Web.GenericWebPage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.io.IOException;
 
 import static AbstarctComponents.Web.FrameworkAssertionLibrary.assertionShouldBeTrue;
 
@@ -16,17 +13,17 @@ public class LoginPage  extends GenericWebPage{
 
     private WebElement usernameField()  {
         WebElement username = getInstanceDriver().findElement(By.xpath(String.format(loginXpath,"user-name")));
-        assertionShouldBeTrue(username.isDisplayed(),"Username field is displayed");
+        assertionShouldBeTrue(username.isDisplayed(),"Is username field displayed","Username field is displayed","Username field is not displayed");
         return username;
     }
     private WebElement passwordField()  {
         WebElement password = getInstanceDriver().findElement(By.xpath(String.format(loginXpath,"password")));
-        assertionShouldBeTrue(password.isDisplayed(),"Password field is displayed");
+        assertionShouldBeTrue(password.isDisplayed(),"Is password field displayed","Password field is displayed","Password field is not displayed");
         return password;
     }
     private WebElement submitButton()  {
         WebElement submit = getInstanceDriver().findElement(By.xpath(String.format(loginXpath,"login-button")));
-        assertionShouldBeTrue(submit.isDisplayed(),"Login button is displayed");
+        assertionShouldBeTrue(submit.isDisplayed(),"Is login button displayed","Login button is displayed","Login button is not displayed");
         return submit;
     }
 

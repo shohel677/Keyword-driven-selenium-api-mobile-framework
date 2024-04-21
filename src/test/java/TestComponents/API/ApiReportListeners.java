@@ -1,21 +1,21 @@
 package TestComponents.API;
 
 import AbstarctComponents.Web.FrameworkAssertionLibrary;
-import TestComponents.Web.ApplicationWeb;
+import TestComponents.Web.WebBaseTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import Utils.APIExtentReporterNG;
+import Utils.ApiExtentReporterNG;
 
 import java.util.List;
 
 
-public class ReportListenersAPI extends ApplicationWeb implements ITestListener{
+public class ApiReportListeners extends WebBaseTest implements ITestListener{
 	ExtentTest test;
-	ExtentReports extent = APIExtentReporterNG.getReportObject();
+	ExtentReports extent = ApiExtentReporterNG.getReportObject();
 	static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>(); //Thread safe
 	@Override
 	public void onTestStart(ITestResult result) {

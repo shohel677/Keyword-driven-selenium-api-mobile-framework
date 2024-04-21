@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.util.List;
 
 import static AbstarctComponents.Web.GenericWebPage.instanceDriver;
-public class ReportListeners extends ApplicationWeb implements ITestListener{
+public class WebReportListeners extends WebBaseTest implements ITestListener{
 	ExtentTest test;
 	ExtentReports extent = WebExtentReporterNG.getReportObject();
 	static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>(); //Thread safe

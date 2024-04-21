@@ -1,8 +1,8 @@
 package TestCases.Web.tests;
 
-import TestComponents.Web.ApplicationWeb;
+import TestComponents.Web.WebBaseTest;
 import org.testng.annotations.Test;
-public class ProductTests extends ApplicationWeb {
+public class ProductTests extends WebBaseTest {
 
     @Test(description = "Test to verify add to cart")
     public void testToVerifyAddToCart() {
