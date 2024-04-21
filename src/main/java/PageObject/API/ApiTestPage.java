@@ -1,6 +1,6 @@
 package PageObject.API;
 
-import AbstarctComponents.API.APIGenericPage;
+import AbstarctComponents.API.ApiGenericPage;
 import io.restassured.response.Response;
 
 import java.io.IOException;
@@ -12,7 +12,7 @@ import static AbstarctComponents.API.Endpoints.getEmployeeEndpoint;
 import static PageObject.API.API.APITestData.apiDataFileLocation;
 
 
-public class TestPageAPI extends APIGenericPage {
+public class ApiTestPage extends ApiGenericPage {
 
     public Response getEmployeesDetails() {
         logger.info("Get request for employee list");

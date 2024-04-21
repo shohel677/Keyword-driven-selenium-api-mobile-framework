@@ -3,7 +3,7 @@
 <suite parallel = "tests" name="Suite">
     <listeners>
         <listener class-name="TestComponents.SuiteListener" />
-        <listener class-name="TestComponents.Web.ReportListeners"/>
+        <listener class-name="TestComponents.Web.WebReportListeners"/>
         <listener class-name="TestComponents.AssertionListener"/>
     </listeners>
     <test thread-count="5" name="Login tests">

@@ -6,8 +6,9 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.locks.Condition;
 
-public class FrameworkAssertionLibrary {
+public class FrameworkAssertionLibrary extends GenericWebPage{
     private static final Logger logger = LogManager.getLogger();
 
     private static final List<AssertionInfo> assertions = new ArrayList<>();
@@ -15,14 +16,24 @@ public class FrameworkAssertionLibrary {
     public static void assertionShouldBeTrue(boolean condition, String message) {
         assertions.add(new AssertionInfo(condition, message));
         Assert.assertTrue(condition, message);
-        logger.info("Step: "+message);
-
+        logger.info("Step: " + message);
     }
+    public static void assertionShouldBeTrue(boolean condition, String message, String expected, String actual) {
+        if(condition){
+            assertions.add(new AssertionInfo(true, expected));
+            Assert.assertTrue(true, expected);
+        }
+        else{
+            assertions.add(new AssertionInfo(false, actual));
+            Assert.assertTrue(false, actual);
+        }
+        logger.info("Step: " + message);
+    }
+
     public static void stepAssertionShouldBeTrue(boolean condition, String message) {
         assertions.add(new AssertionInfo(condition, message));
         Assert.assertTrue(condition, message);
-        logger.info("STEP: "+message);
-
+        logger.info("STEP: " + message);
     }
 
     public static List<AssertionInfo> getAllAssertions() {

@@ -5,11 +5,13 @@ import io.restassured.specification.RequestSpecification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import static DataLoader.TestEssentials.appAddress;
 
-public class APIGenericPage {
+
+public class ApiGenericPage {
     public Logger logger = LogManager.getLogger(this.getClass());
-    private static final String BASE_URI = "https://dummy.restapiexample.com";
-    //private static final String BASE_URI = appAddress;
+//    private static final String BASE_URI = "https://dummy.restapiexample.com";
+    private static final String BASE_URI = appAddress;
 
     protected RequestSpecification getRequestSpecification() {
         return RestAssured.given()

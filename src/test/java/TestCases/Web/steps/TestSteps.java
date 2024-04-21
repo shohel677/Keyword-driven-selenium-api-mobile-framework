@@ -1,11 +1,11 @@
 package TestCases.Web.steps;
 
 import PageObject.Web.HomePage;
-import TestComponents.Web.ApplicationWeb;
+import TestComponents.Web.WebBaseTest;
 
 import static AbstarctComponents.Web.FrameworkAssertionLibrary.stepAssertionShouldBeTrue;
 
-public class TestSteps extends ApplicationWeb {
+public class TestSteps extends WebBaseTest {
 
     private final HomePage homePage = new HomePage();
 
@@ -33,7 +33,7 @@ public class TestSteps extends ApplicationWeb {
     public void clickingAddToCart2() {
         try{
             homePage.clickAddToCart();
-            stepAssertionShouldBeTrue(false, "Add cart button is clicked");
+            stepAssertionShouldBeTrue(true, "Add cart button is clicked");
             logger.info("Clicked add to cart button from product details page");
             }catch (AssertionError | Exception ae){
                 stepAssertionShouldBeTrue(false, "Add cart button is not clicked");

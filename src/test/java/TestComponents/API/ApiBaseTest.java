@@ -10,7 +10,7 @@ import java.io.IOException;
 
 import static DataLoader.TestEssentials.propertyDataLoader;
 
-public class ApplicationAPI {
+public class ApiBaseTest {
     public Logger logger = LogManager.getLogger(this.getClass());
     @BeforeMethod
     public void APIEssential(ITestResult result) throws IOException {

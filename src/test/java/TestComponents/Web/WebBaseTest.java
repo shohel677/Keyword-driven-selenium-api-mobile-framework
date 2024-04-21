@@ -1,30 +1,27 @@
 package TestComponents.Web;
 
 
-import PageObject.Web.HomePage;
 import PageObject.Web.LoginPage;
 import TestCases.Web.steps.TestSteps;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
 
-import static AbstarctComponents.Web.GenericWebPage.*;
+import static AbstarctComponents.Web.GenericWebPage.getInstanceDriver;
+import static AbstarctComponents.Web.GenericWebPage.instanceDriver;
 import static DataLoader.TestEssentials.*;
 
-public class ApplicationWeb {
+public class WebBaseTest {
     public Logger logger = LogManager.getLogger(this.getClass());
-    //public WebDriver driver;
-    protected HomePage homePage;
     protected LoginPage loginPage;
     protected TestSteps testSteps;
 
     @BeforeMethod(alwaysRun=true)
-    public void setup() throws IOException {
+    public void setup() {
         getInstanceDriver();
         loginPage = new LoginPage();
         testSteps = new TestSteps();
@@ -52,9 +49,5 @@ public class ApplicationWeb {
         instanceDriver.quit();
         instanceDriver = null;
     }
-//    private void initializePage() {
-//        loginPage = new LoginPage(driver);
-//        homePage = new HomePage(driver);
-//        testSteps = new TestSteps(homePage);
-//    }
+
 }

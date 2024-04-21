@@ -1,7 +1,7 @@
 package TestCases.API;
 
-import PageObject.API.TestPageAPI;
-import TestComponents.API.ApplicationAPI;
+import PageObject.API.ApiTestPage;
+import TestComponents.API.ApiBaseTest;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -9,12 +9,12 @@ import java.io.IOException;
 
 import static AbstarctComponents.Web.FrameworkAssertionLibrary.assertionShouldBeTrue;
 
-public class EmployeeTestAPI extends ApplicationAPI {
+public class EmployeeTestAPI extends ApiBaseTest {
 
     @Test(description = "Employee details API")
     public void verifyEmployeesDetails() {
 
-        TestPageAPI testPageAPI = new TestPageAPI();
+        ApiTestPage testPageAPI = new ApiTestPage();
 
         Response response = testPageAPI.getEmployeesDetails();
 
@@ -29,7 +29,7 @@ public class EmployeeTestAPI extends ApplicationAPI {
     @Test(description = "Employee creation API")
     public void testToCreateEmployee() throws IOException {
 
-        TestPageAPI userAPI = new TestPageAPI();
+        ApiTestPage userAPI = new ApiTestPage();
         Response response = userAPI.createEmployee();
         int responseCode = response.getStatusCode();
         assertionShouldBeTrue(responseCode==200,"Found Response code: "+responseCode);
