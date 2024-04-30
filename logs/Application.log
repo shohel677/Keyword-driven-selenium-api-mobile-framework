@@ -1,76 +1,76 @@
-00:21:23.957 INFO  Open URL: https://www.saucedemo.com
-00:21:24.133 INFO  Step: Is username field displayed
-00:21:24.210 INFO  Enter username: standard_user
-00:21:24.236 INFO  Step: Is password field displayed
-00:21:24.302 INFO  Enter password: secret_sauce
-00:21:24.321 INFO  Step: Is login button displayed
-00:21:24.383 INFO  Click submit button
-00:21:27.427 INFO  Clicking on product from homepageSauce Labs Backpack
-00:21:27.489 INFO  STEP: Home page opened
-00:21:27.489 INFO  Clicked on product from home page
-00:21:30.492 INFO  Clicking add to cart button from product details page
-00:21:30.554 INFO  STEP: Add cart button is clicked
-00:21:30.554 INFO  Clicked add to cart button from product details page
-00:21:33.609 INFO  Asserting if product added number text visible on top tooltip
-00:21:33.609 INFO  Product added number text visible on top tooltip
-00:21:33.609 INFO  STEP: Product count updated on busket icon in homepage
-00:21:33.609 INFO  Product added on cart
-00:21:33.609 INFO  'Test to verify add to cart' is successfully passed
-00:21:33.624 INFO  ---------------------------------------------------
-00:21:36.610 INFO  Open URL: https://www.saucedemo.com
-00:21:36.783 INFO  Step: Is username field displayed
-00:21:36.862 INFO  Enter username: standard_user
-00:21:36.889 INFO  Step: Is password field displayed
-00:21:36.958 INFO  Enter password: secret_sauce
-00:21:36.979 INFO  Step: Is login button displayed
-00:21:37.043 INFO  Click submit button
-00:21:40.085 INFO  Clicking on product from homepageSauce Labs Backpack
-00:21:40.126 INFO  STEP: Home page opened
-00:21:40.126 INFO  Clicked on product from home page
-00:21:43.138 INFO  Clicking add to cart button from product details page
-00:21:43.184 INFO  STEP: Add cart button is clicked
-00:21:43.185 INFO  Clicked add to cart button from product details page
-00:21:46.221 INFO  Asserting if product added number text visible on top tooltip
-00:21:46.221 INFO  Product added number text visible on top tooltip
-00:21:46.221 INFO  STEP: Product count updated on busket icon in homepage
-00:21:46.221 INFO  Product added on cart
-00:21:46.221 INFO  'Test to verify add to cart2' is successfully passed
-00:21:46.221 INFO  ---------------------------------------------------
-00:21:48.463 INFO  Open URL: https://www.saucedemo.com
-00:21:48.625 INFO  Step: Is username field displayed
-00:21:48.750 INFO  Enter username: standard_user
-00:21:48.777 INFO  Step: Is password field displayed
-00:21:48.842 INFO  Enter password: secret_sauce
-00:21:48.877 INFO  Step: Is login button displayed
-00:21:48.947 INFO  Click submit button
-00:21:51.988 INFO  Clicking on product from homepageSauce Labs Backpack
-00:21:52.049 INFO  STEP: Home page opened
-00:21:52.049 INFO  Clicked on product from home page
-00:21:55.055 INFO  Clicking add to cart button from product details page
-00:21:55.108 INFO  STEP: Add cart button is clicked
-00:21:55.108 INFO  Clicked add to cart button from product details page
-00:21:58.143 INFO  Asserting if product added number text visible on top tooltip
-00:21:58.143 INFO  Product added number text visible on top tooltip
-00:21:58.143 INFO  STEP: Product count updated on busket icon in homepage
-00:21:58.143 INFO  Product added on cart
-00:21:58.143 INFO  'Test to verify add to cart' is successfully passed
-00:21:58.143 INFO  ---------------------------------------------------
-00:22:00.348 INFO  Open URL: https://www.saucedemo.com
-00:22:00.498 INFO  Step: Is username field displayed
-00:22:00.613 INFO  Enter username: standard_user
-00:22:00.646 INFO  Step: Is password field displayed
-00:22:00.714 INFO  Enter password: secret_sauce
-00:22:00.752 INFO  Step: Is login button displayed
-00:22:00.821 INFO  Click submit button
-00:22:03.863 INFO  Clicking on product from homepageSauce Labs Backpack
-00:22:03.911 INFO  STEP: Home page opened
-00:22:03.911 INFO  Clicked on product from home page
-00:22:06.924 INFO  Clicking add to cart button from product details page
-00:22:06.971 INFO  STEP: Add cart button is clicked
-00:22:06.971 INFO  Clicked add to cart button from product details page
-00:22:10.006 INFO  Asserting if product added number text visible on top tooltip
-00:22:10.006 INFO  Product added number text visible on top tooltip
-00:22:10.006 INFO  STEP: Product count updated on busket icon in homepage
-00:22:10.006 INFO  Product added on cart
-00:22:10.006 INFO  'Test to verify add to cart2' is successfully passed
-00:22:10.006 INFO  ---------------------------------------------------
+13:20:42.998 INFO  Open URL: https://www.saucedemo.com
+13:20:43.181 INFO  Step: Is username field displayed
+13:20:43.273 INFO  Enter username: standard_user
+13:20:43.303 INFO  Step: Is password field displayed
+13:20:43.376 INFO  Enter password: secret_sauce
+13:20:43.400 INFO  Step: Is login button displayed
+13:20:43.478 INFO  Click submit button
+13:20:46.524 INFO  Clicking on product from homepageSauce Labs Backpack
+13:20:46.561 INFO  STEP: Home page opened
+13:20:46.561 INFO  Clicked on product from home page
+13:20:49.576 INFO  Clicking add to cart button from product details page
+13:20:49.645 INFO  STEP: Add cart button is clicked
+13:20:49.645 INFO  Clicked add to cart button from product details page
+13:20:52.683 INFO  Asserting if product added number text visible on top tooltip
+13:20:52.683 INFO  Product added number text visible on top tooltip
+13:20:52.683 INFO  STEP: Product count updated on busket icon in homepage
+13:20:52.683 INFO  Product added on cart
+13:20:52.698 INFO  'Test to verify add to cart' is successfully passed
+13:20:52.698 INFO  ---------------------------------------------------
+13:20:54.467 INFO  Open URL: https://www.saucedemo.com
+13:20:54.644 INFO  Step: Is username field displayed
+13:20:54.756 INFO  Enter username: standard_user
+13:20:54.781 INFO  Step: Is password field displayed
+13:20:54.862 INFO  Enter password: secret_sauce
+13:20:54.882 INFO  Step: Is login button displayed
+13:20:54.992 INFO  Click submit button
+13:20:58.043 INFO  Clicking on product from homepageSauce Labs Backpack
+13:20:58.099 INFO  STEP: Home page opened
+13:20:58.100 INFO  Clicked on product from home page
+13:21:01.109 INFO  Clicking add to cart button from product details page
+13:21:01.162 INFO  STEP: Add cart button is clicked
+13:21:01.162 INFO  Clicked add to cart button from product details page
+13:21:04.209 INFO  Asserting if product added number text visible on top tooltip
+13:21:04.209 INFO  Product added number text visible on top tooltip
+13:21:04.209 INFO  STEP: Product count updated on busket icon in homepage
+13:21:04.209 INFO  Product added on cart
+13:21:04.209 INFO  'Test to verify add to cart2' is successfully passed
+13:21:04.209 INFO  ---------------------------------------------------
+13:21:05.925 INFO  Open URL: https://www.saucedemo.com
+13:21:06.096 INFO  Step: Is username field displayed
+13:21:06.201 INFO  Enter username: standard_user
+13:21:06.230 INFO  Step: Is password field displayed
+13:21:06.326 INFO  Enter password: secret_sauce
+13:21:06.353 INFO  Step: Is login button displayed
+13:21:06.449 INFO  Click submit button
+13:21:09.498 INFO  Clicking on product from homepageSauce Labs Backpack
+13:21:09.550 INFO  STEP: Home page opened
+13:21:09.551 INFO  Clicked on product from home page
+13:21:12.558 INFO  Clicking add to cart button from product details page
+13:21:12.662 INFO  STEP: Add cart button is clicked
+13:21:12.662 INFO  Clicked add to cart button from product details page
+13:21:15.681 INFO  Asserting if product added number text visible on top tooltip
+13:21:15.681 INFO  Product added number text visible on top tooltip
+13:21:15.681 INFO  STEP: Product count updated on busket icon in homepage
+13:21:15.681 INFO  Product added on cart
+13:21:15.696 INFO  'Test to verify add to cart' is successfully passed
+13:21:15.696 INFO  ---------------------------------------------------
+13:21:17.406 INFO  Open URL: https://www.saucedemo.com
+13:21:17.567 INFO  Step: Is username field displayed
+13:21:17.635 INFO  Enter username: standard_user
+13:21:17.660 INFO  Step: Is password field displayed
+13:21:17.713 INFO  Enter password: secret_sauce
+13:21:17.734 INFO  Step: Is login button displayed
+13:21:17.811 INFO  Click submit button
+13:21:20.855 INFO  Clicking on product from homepageSauce Labs Backpack
+13:21:20.893 INFO  STEP: Home page opened
+13:21:20.893 INFO  Clicked on product from home page
+13:21:23.902 INFO  Clicking add to cart button from product details page
+13:21:23.949 INFO  STEP: Add cart button is clicked
+13:21:23.950 INFO  Clicked add to cart button from product details page
+13:21:26.975 INFO  Asserting if product added number text visible on top tooltip
+13:21:26.975 INFO  Product added number text visible on top tooltip
+13:21:26.975 INFO  STEP: Product count updated on busket icon in homepage
+13:21:26.975 INFO  Product added on cart
+13:21:26.978 INFO  'Test to verify add to cart2' is successfully passed
+13:21:26.978 INFO  ---------------------------------------------------

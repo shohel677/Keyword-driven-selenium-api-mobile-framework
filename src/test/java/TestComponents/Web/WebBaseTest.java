@@ -29,7 +29,7 @@ public class WebBaseTest {
     }
 
     @AfterMethod(alwaysRun=true)
-    public void tearDown(ITestResult result) throws IOException {
+    public void tearDown(ITestResult result) {
         int status = result.getStatus();
         String testDescription = result.getMethod().getDescription();
 

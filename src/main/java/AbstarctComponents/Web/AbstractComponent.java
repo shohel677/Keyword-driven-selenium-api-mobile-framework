@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class AbstractComponent  extends GenericWebPage {
 
-    public static WebElement waitUntilVisible(int numberOfSecond, String  stringXpath){
+    public static WebElement waitUntilVisible(int numberOfSecond, String stringXpath){
         WebDriverWait wait = new WebDriverWait(instanceDriver, Duration.ofSeconds(numberOfSecond));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(stringXpath)));
     }

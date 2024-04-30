@@ -18,11 +18,6 @@ public class SuiteListener implements ISuiteListener {
         deleteFolderContents(new File(AllureReportsFolderPath));
     }
 
-    @Override
-    public void onFinish(ISuite suite) {
-        // Cleanup or additional actions if needed after the suite execution
-    }
-
     private void deleteFolderContents(File folder) {
         try {
             if (folder.exists() && folder.isDirectory()) {

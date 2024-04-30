@@ -10,7 +10,6 @@ import static DataLoader.TestEssentials.appAddress;
 
 public class ApiGenericPage {
     public Logger logger = LogManager.getLogger(this.getClass());
-//    private static final String BASE_URI = "https://dummy.restapiexample.com";
     private static final String BASE_URI = appAddress;
 
     protected RequestSpecification getRequestSpecification() {
