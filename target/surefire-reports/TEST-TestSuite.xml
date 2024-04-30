@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="47.693" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="48.109" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\STL\AppData\Local\Temp\surefire12382764322055122257\surefirebooter-20240422132039541_3.jar C:\Users\STL\AppData\Local\Temp\surefire12382764322055122257 2024-04-22T13-20-39_444-jvmRun1 surefire-20240422132039541_1tmp surefire_0-20240422132039541_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\STL\AppData\Local\Temp\surefire507914184285569146\surefirebooter-20240430233559920_3.jar C:\Users\STL\AppData\Local\Temp\surefire507914184285569146 2024-04-30T23-35-59_825-jvmRun1 surefire-20240430233559920_1tmp surefire_0-20240430233559920_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Shohel\Framework\TSP\target\test-classes;D:\Shohel\Framework\TSP\target\classes;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\STL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\STL\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\STL\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\STL\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\STL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\STL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\STL\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\STL\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\STL\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\STL\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\STL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\STL\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\STL\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\STL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\STL\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\STL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\STL\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\STL\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\STL\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\STL\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\STL\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\STL\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\STL\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\STL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\STL\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\STL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\STL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\STL\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\STL\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\STL\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\STL\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\STL\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\STL\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\STL\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\STL\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\STL\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\STL\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\STL\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\STL\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\STL\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\STL\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.2.5\maven-surefire-plugin-3.2.5.jar;C:\Users\STL\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.2.5\maven-surefire-common-3.2.5.jar;C:\Users\STL\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.5\surefire-api-3.2.5.jar;C:\Users\STL\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.5\surefire-logger-api-3.2.5.jar;C:\Users\STL\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.2.5\surefire-extensions-api-3.2.5.jar;C:\Users\STL\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.5\surefire-booter-3.2.5.jar;C:\Users\STL\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.5\surefire-extensions-spi-3.2.5.jar;C:\Users\STL\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\STL\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\STL\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\STL\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\STL\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\STL\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\STL\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\STL\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\STL\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\STL\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\STL\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\STL\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\STL\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\STL\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\STL\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\STL\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\STL\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\STL\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\STL\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\STL\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\STL\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\STL\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\STL\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\STL\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.5\surefire-shared-utils-3.2.5.jar;C:\Users\STL\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\STL\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\STL\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\STL\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\STL\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\STL\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\STL\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\STL\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\STL\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\STL\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\STL\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\STL\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\STL\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\STL\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\STL\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\STL\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\STL\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\STL\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\STL\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\STL\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\STL\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\STL\AppData\Local\Temp\surefire12382764322055122257\surefirebooter-20240422132039541_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\STL\AppData\Local\Temp\surefire507914184285569146\surefirebooter-20240430233559920_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
@@ -62,24 +62,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testToVerifyAddToCart" classname="TestCases.Web.tests.ProductTests" time="9.211">
-    <system-out><![CDATA[13:20:42.998 INFO  Open URL: https://www.saucedemo.com
-13:20:43.181 INFO  Step: Is username field displayed
-13:20:43.273 INFO  Enter username: standard_user
-13:20:43.303 INFO  Step: Is password field displayed
-13:20:43.376 INFO  Enter password: secret_sauce
-13:20:43.400 INFO  Step: Is login button displayed
-13:20:43.478 INFO  Click submit button
-13:20:46.524 INFO  Clicking on product from homepageSauce Labs Backpack
-13:20:46.561 INFO  STEP: Home page opened
-13:20:46.561 INFO  Clicked on product from home page
-13:20:49.576 INFO  Clicking add to cart button from product details page
-13:20:49.645 INFO  STEP: Add cart button is clicked
-13:20:49.645 INFO  Clicked add to cart button from product details page
-13:20:52.683 INFO  Asserting if product added number text visible on top tooltip
-13:20:52.683 INFO  Product added number text visible on top tooltip
-13:20:52.683 INFO  STEP: Product count updated on busket icon in homepage
-13:20:52.683 INFO  Product added on cart
+  <testcase name="testToVerifyAddToCart" classname="TestCases.Web.tests.ProductTests" time="9.198">
+    <system-out><![CDATA[23:36:03.482 INFO  Open URL: https://www.saucedemo.com
+23:36:03.658 INFO  Step: Is username field displayed
+23:36:03.772 INFO  Enter username: standard_user
+23:36:03.804 INFO  Step: Is password field displayed
+23:36:03.884 INFO  Enter password: secret_sauce
+23:36:03.909 INFO  Step: Is login button displayed
+23:36:03.988 INFO  Click submit button
+23:36:07.038 INFO  Clicking on product from homepageSauce Labs Backpack
+23:36:07.077 INFO  STEP: Home page opened
+23:36:07.077 INFO  Clicked on product from home page
+23:36:10.081 INFO  Clicking add to cart button from product details page
+23:36:10.141 INFO  STEP: Add cart button is clicked
+23:36:10.141 INFO  Clicked add to cart button from product details page
+23:36:13.175 INFO  Asserting if product added number text visible on top tooltip
+23:36:13.175 INFO  Product added number text visible on top tooltip
+23:36:13.175 INFO  STEP: Product count updated on busket icon in homepage
+23:36:13.175 INFO  Product added on cart
 Step: Pass - Username field is displayed
 Step: Pass - Password field is displayed
 Step: Pass - Login button is displayed
@@ -90,30 +90,30 @@ Step: Pass - Product count updated on busket icon in homepage
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 22, 2024 1:20:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+Apr 30, 2024 11:36:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="testToVerifyAddToCart2" classname="TestCases.Web.tests.ProductTests" time="9.214">
-    <system-out><![CDATA[13:20:52.698 INFO  'Test to verify add to cart' is successfully passed
-13:20:52.698 INFO  ---------------------------------------------------
-13:20:54.467 INFO  Open URL: https://www.saucedemo.com
-13:20:54.644 INFO  Step: Is username field displayed
-13:20:54.756 INFO  Enter username: standard_user
-13:20:54.781 INFO  Step: Is password field displayed
-13:20:54.862 INFO  Enter password: secret_sauce
-13:20:54.882 INFO  Step: Is login button displayed
-13:20:54.992 INFO  Click submit button
-13:20:58.043 INFO  Clicking on product from homepageSauce Labs Backpack
-13:20:58.099 INFO  STEP: Home page opened
-13:20:58.100 INFO  Clicked on product from home page
-13:21:01.109 INFO  Clicking add to cart button from product details page
-13:21:01.162 INFO  STEP: Add cart button is clicked
-13:21:01.162 INFO  Clicked add to cart button from product details page
-13:21:04.209 INFO  Asserting if product added number text visible on top tooltip
-13:21:04.209 INFO  Product added number text visible on top tooltip
-13:21:04.209 INFO  STEP: Product count updated on busket icon in homepage
-13:21:04.209 INFO  Product added on cart
+  <testcase name="testToVerifyAddToCart2" classname="TestCases.Web.tests.ProductTests" time="9.196">
+    <system-out><![CDATA[23:36:13.189 INFO  'Test to verify add to cart' is successfully passed
+23:36:13.189 INFO  ---------------------------------------------------
+23:36:15.146 INFO  Open URL: https://www.saucedemo.com
+23:36:15.296 INFO  Step: Is username field displayed
+23:36:15.389 INFO  Enter username: standard_user
+23:36:15.412 INFO  Step: Is password field displayed
+23:36:15.495 INFO  Enter password: secret_sauce
+23:36:15.519 INFO  Step: Is login button displayed
+23:36:15.585 INFO  Click submit button
+23:36:18.638 INFO  Clicking on product from homepageSauce Labs Backpack
+23:36:18.697 INFO  STEP: Home page opened
+23:36:18.697 INFO  Clicked on product from home page
+23:36:21.705 INFO  Clicking add to cart button from product details page
+23:36:21.755 INFO  STEP: Add cart button is clicked
+23:36:21.755 INFO  Clicked add to cart button from product details page
+23:36:24.774 INFO  Asserting if product added number text visible on top tooltip
+23:36:24.774 INFO  Product added number text visible on top tooltip
+23:36:24.774 INFO  STEP: Product count updated on busket icon in homepage
+23:36:24.774 INFO  Product added on cart
 Step: Pass - Username field is displayed
 Step: Pass - Password field is displayed
 Step: Pass - Login button is displayed
@@ -121,30 +121,30 @@ Step: Pass - Home page opened
 Step: Pass - Add cart button is clicked
 Step: Pass - Product count updated on busket icon in homepage
 ]]></system-out>
-    <system-err><![CDATA[Apr 22, 2024 1:20:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+    <system-err><![CDATA[Apr 30, 2024 11:36:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="testToVerifyAddToCart3" classname="TestCases.Web.tests.ProductTests" time="9.244">
-    <system-out><![CDATA[13:21:04.209 INFO  'Test to verify add to cart2' is successfully passed
-13:21:04.209 INFO  ---------------------------------------------------
-13:21:05.925 INFO  Open URL: https://www.saucedemo.com
-13:21:06.096 INFO  Step: Is username field displayed
-13:21:06.201 INFO  Enter username: standard_user
-13:21:06.230 INFO  Step: Is password field displayed
-13:21:06.326 INFO  Enter password: secret_sauce
-13:21:06.353 INFO  Step: Is login button displayed
-13:21:06.449 INFO  Click submit button
-13:21:09.498 INFO  Clicking on product from homepageSauce Labs Backpack
-13:21:09.550 INFO  STEP: Home page opened
-13:21:09.551 INFO  Clicked on product from home page
-13:21:12.558 INFO  Clicking add to cart button from product details page
-13:21:12.662 INFO  STEP: Add cart button is clicked
-13:21:12.662 INFO  Clicked add to cart button from product details page
-13:21:15.681 INFO  Asserting if product added number text visible on top tooltip
-13:21:15.681 INFO  Product added number text visible on top tooltip
-13:21:15.681 INFO  STEP: Product count updated on busket icon in homepage
-13:21:15.681 INFO  Product added on cart
+  <testcase name="testToVerifyAddToCart3" classname="TestCases.Web.tests.ProductTests" time="9.186">
+    <system-out><![CDATA[23:36:24.790 INFO  'Test to verify add to cart2' is successfully passed
+23:36:24.790 INFO  ---------------------------------------------------
+23:36:26.671 INFO  Open URL: https://www.saucedemo.com
+23:36:26.825 INFO  Step: Is username field displayed
+23:36:26.920 INFO  Enter username: standard_user
+23:36:26.937 INFO  Step: Is password field displayed
+23:36:27.022 INFO  Enter password: secret_sauce
+23:36:27.053 INFO  Step: Is login button displayed
+23:36:27.135 INFO  Click submit button
+23:36:30.166 INFO  Clicking on product from homepageSauce Labs Backpack
+23:36:30.205 INFO  STEP: Home page opened
+23:36:30.205 INFO  Clicked on product from home page
+23:36:33.219 INFO  Clicking add to cart button from product details page
+23:36:33.269 INFO  STEP: Add cart button is clicked
+23:36:33.270 INFO  Clicked add to cart button from product details page
+23:36:36.306 INFO  Asserting if product added number text visible on top tooltip
+23:36:36.306 INFO  Product added number text visible on top tooltip
+23:36:36.306 INFO  STEP: Product count updated on busket icon in homepage
+23:36:36.306 INFO  Product added on cart
 Step: Pass - Username field is displayed
 Step: Pass - Password field is displayed
 Step: Pass - Login button is displayed
@@ -152,30 +152,30 @@ Step: Pass - Home page opened
 Step: Pass - Add cart button is clicked
 Step: Pass - Product count updated on busket icon in homepage
 ]]></system-out>
-    <system-err><![CDATA[Apr 22, 2024 1:21:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+    <system-err><![CDATA[Apr 30, 2024 11:36:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="testToVerifyAddToCart4" classname="TestCases.Web.tests.ProductTests" time="9.169">
-    <system-out><![CDATA[13:21:15.696 INFO  'Test to verify add to cart' is successfully passed
-13:21:15.696 INFO  ---------------------------------------------------
-13:21:17.406 INFO  Open URL: https://www.saucedemo.com
-13:21:17.567 INFO  Step: Is username field displayed
-13:21:17.635 INFO  Enter username: standard_user
-13:21:17.660 INFO  Step: Is password field displayed
-13:21:17.713 INFO  Enter password: secret_sauce
-13:21:17.734 INFO  Step: Is login button displayed
-13:21:17.811 INFO  Click submit button
-13:21:20.855 INFO  Clicking on product from homepageSauce Labs Backpack
-13:21:20.893 INFO  STEP: Home page opened
-13:21:20.893 INFO  Clicked on product from home page
-13:21:23.902 INFO  Clicking add to cart button from product details page
-13:21:23.949 INFO  STEP: Add cart button is clicked
-13:21:23.950 INFO  Clicked add to cart button from product details page
-13:21:26.975 INFO  Asserting if product added number text visible on top tooltip
-13:21:26.975 INFO  Product added number text visible on top tooltip
-13:21:26.975 INFO  STEP: Product count updated on busket icon in homepage
-13:21:26.975 INFO  Product added on cart
+  <testcase name="testToVerifyAddToCart4" classname="TestCases.Web.tests.ProductTests" time="9.218">
+    <system-out><![CDATA[23:36:36.322 INFO  'Test to verify add to cart' is successfully passed
+23:36:36.322 INFO  ---------------------------------------------------
+23:36:38.012 INFO  Open URL: https://www.saucedemo.com
+23:36:38.188 INFO  Step: Is username field displayed
+23:36:38.277 INFO  Enter username: standard_user
+23:36:38.309 INFO  Step: Is password field displayed
+23:36:38.394 INFO  Enter password: secret_sauce
+23:36:38.424 INFO  Step: Is login button displayed
+23:36:38.496 INFO  Click submit button
+23:36:41.549 INFO  Clicking on product from homepageSauce Labs Backpack
+23:36:41.595 INFO  STEP: Home page opened
+23:36:41.595 INFO  Clicked on product from home page
+23:36:44.611 INFO  Clicking add to cart button from product details page
+23:36:44.677 INFO  STEP: Add cart button is clicked
+23:36:44.677 INFO  Clicked add to cart button from product details page
+23:36:47.705 INFO  Asserting if product added number text visible on top tooltip
+23:36:47.705 INFO  Product added number text visible on top tooltip
+23:36:47.705 INFO  STEP: Product count updated on busket icon in homepage
+23:36:47.705 INFO  Product added on cart
 Step: Pass - Username field is displayed
 Step: Pass - Password field is displayed
 Step: Pass - Login button is displayed
@@ -183,8 +183,8 @@ Step: Pass - Home page opened
 Step: Pass - Add cart button is clicked
 Step: Pass - Product count updated on busket icon in homepage
 ]]></system-out>
-    <system-err><![CDATA[Apr 22, 2024 1:21:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+    <system-err><![CDATA[Apr 30, 2024 11:36:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
 </testsuite>

@@ -10,10 +10,9 @@
         <classes>
             <class name="TestCases.Web.tests.ProductTests">
                 <methods>
+                    <include name="testToVerifyHomepage"/>
                     <include name="testToVerifyAddToCart"/>
-                    <include name="testToVerifyAddToCart2"/>
-                    <include name="testToVerifyAddToCart3"/>
-                    <include name="testToVerifyAddToCart4"/>
+                    <include name="testToVerifyProductCount"/>
                 </methods>
             </class>
         </classes>

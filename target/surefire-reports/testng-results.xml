@@ -2,81 +2,81 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T13:20:40 BDT" name="Suite" finished-at="2024-04-22T13:21:27 BDT" duration-ms="46305">
+  <suite started-at="2024-04-30T23:36:01 BDT" name="Suite" finished-at="2024-04-30T23:36:47 BDT" duration-ms="46547">
     <groups>
     </groups>
-    <test started-at="2024-04-22T13:20:40 BDT" name="Login tests" finished-at="2024-04-22T13:21:27 BDT" duration-ms="46305">
+    <test started-at="2024-04-30T23:36:01 BDT" name="Login tests" finished-at="2024-04-30T23:36:47 BDT" duration-ms="46547">
       <class name="TestCases.Web.tests.ProductTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:20:40 BDT" name="setup" finished-at="2024-04-22T13:20:43 BDT" duration-ms="2545" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:01 BDT" name="setup" finished-at="2024-04-30T23:36:03 BDT" duration-ms="2595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testToVerifyAddToCart()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:20:43 BDT" name="testToVerifyAddToCart" description="Test to verify add to cart" finished-at="2024-04-22T13:20:52 BDT" duration-ms="9204" status="PASS">
+        <test-method signature="testToVerifyAddToCart()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:03 BDT" name="testToVerifyAddToCart" description="Test to verify add to cart" finished-at="2024-04-30T23:36:13 BDT" duration-ms="9186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToVerifyAddToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:20:52 BDT" name="tearDown" finished-at="2024-04-22T13:20:52 BDT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:13 BDT" name="tearDown" finished-at="2024-04-30T23:36:13 BDT" duration-ms="234" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testToVerifyAddToCart status=SUCCESS method=ProductTests.testToVerifyAddToCart()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab] output={null}]]]>
+                <![CDATA[[TestResult name=testToVerifyAddToCart status=SUCCESS method=ProductTests.testToVerifyAddToCart()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:20:52 BDT" name="setup" finished-at="2024-04-22T13:20:54 BDT" duration-ms="2106" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:13 BDT" name="setup" finished-at="2024-04-30T23:36:15 BDT" duration-ms="2184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testToVerifyAddToCart2()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:20:54 BDT" name="testToVerifyAddToCart2" description="Test to verify add to cart2" finished-at="2024-04-22T13:21:04 BDT" duration-ms="9216" status="PASS">
+        <test-method signature="testToVerifyAddToCart2()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:15 BDT" name="testToVerifyAddToCart2" description="Test to verify add to cart2" finished-at="2024-04-30T23:36:24 BDT" duration-ms="9197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToVerifyAddToCart2 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:21:04 BDT" name="tearDown" finished-at="2024-04-22T13:21:04 BDT" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:24 BDT" name="tearDown" finished-at="2024-04-30T23:36:25 BDT" duration-ms="219" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testToVerifyAddToCart2 status=SUCCESS method=ProductTests.testToVerifyAddToCart2()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab] output={null}]]]>
+                <![CDATA[[TestResult name=testToVerifyAddToCart2 status=SUCCESS method=ProductTests.testToVerifyAddToCart2()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:21:04 BDT" name="setup" finished-at="2024-04-22T13:21:06 BDT" duration-ms="2053" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:25 BDT" name="setup" finished-at="2024-04-30T23:36:27 BDT" duration-ms="2126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testToVerifyAddToCart3()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:21:06 BDT" name="testToVerifyAddToCart3" description="Test to verify add to cart" finished-at="2024-04-22T13:21:15 BDT" duration-ms="9231" status="PASS">
+        <test-method signature="testToVerifyAddToCart3()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:27 BDT" name="testToVerifyAddToCart3" description="Test to verify add to cart" finished-at="2024-04-30T23:36:36 BDT" duration-ms="9171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToVerifyAddToCart3 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:21:15 BDT" name="tearDown" finished-at="2024-04-22T13:21:15 BDT" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:36 BDT" name="tearDown" finished-at="2024-04-30T23:36:36 BDT" duration-ms="235" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testToVerifyAddToCart3 status=SUCCESS method=ProductTests.testToVerifyAddToCart3()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab] output={null}]]]>
+                <![CDATA[[TestResult name=testToVerifyAddToCart3 status=SUCCESS method=ProductTests.testToVerifyAddToCart3()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:21:15 BDT" name="setup" finished-at="2024-04-22T13:21:17 BDT" duration-ms="1957" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:36 BDT" name="setup" finished-at="2024-04-30T23:36:38 BDT" duration-ms="1955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testToVerifyAddToCart4()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:21:17 BDT" name="testToVerifyAddToCart4" description="Test to verify add to cart2" finished-at="2024-04-22T13:21:26 BDT" duration-ms="9163" status="PASS">
+        <test-method signature="testToVerifyAddToCart4()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:38 BDT" name="testToVerifyAddToCart4" description="Test to verify add to cart2" finished-at="2024-04-30T23:36:47 BDT" duration-ms="9209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToVerifyAddToCart4 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab]" started-at="2024-04-22T13:21:26 BDT" name="tearDown" finished-at="2024-04-22T13:21:27 BDT" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9]" started-at="2024-04-30T23:36:47 BDT" name="tearDown" finished-at="2024-04-30T23:36:47 BDT" duration-ms="189" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testToVerifyAddToCart4 status=SUCCESS method=ProductTests.testToVerifyAddToCart4()[pri:0, instance:TestCases.Web.tests.ProductTests@6ca320ab] output={null}]]]>
+                <![CDATA[[TestResult name=testToVerifyAddToCart4 status=SUCCESS method=ProductTests.testToVerifyAddToCart4()[pri:0, instance:TestCases.Web.tests.ProductTests@79f227a9] output={null}]]]>
               </value>
             </param>
           </params>
